@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.landing_main{
+    width:100%;
+}
+
+.landing_main #myVideo{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.landing_main .text_frame{
+    position: absolute;
+    width:60%;
+    height:30%;
+    top:30%;
+    left:10%;
+}
+
+.text_frame #head{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
+.text_frame #head_para{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color:white;
+    margin-bottom: 10px;;
+}
+
+
+#read_more_link{
+    display: inline-block;
+    padding:10px 30px;
+    width:90px;
+    text-decoration: none;
+    display: block;
+    border:2px solid white;
+    border-radius: 10px;
+    color:orange;
+}
+
+
+#about{
+    position: relative;
+    height:80vh;
+    width: 100%;
+}
+
+#about .about_head{
+    margin: 50px 0px;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+#para_block{
+    width: 80%;
+  height: 200px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height-step: 20px;
+}
+
+#about .about_para{
+    text-align: center;
+    font-size:25px;
+    color: rgb(61, 60, 60);
+}
+
+#about_button{
+    width: 80%;
+    height: 200px;
+    /* Center vertically and horizontally */
+    position: relative;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%,-62%);
+    line-height-step: 20px;
+
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: white;
+    padding:12px 40px;
+
+    text-decoration: none;
+    color:orange;
+    transition-duration: .5s;
+}
+
+#about_button:hover{
+    border: 5px solid orange;
+    background-color: orange;
+    color:white;
+}
